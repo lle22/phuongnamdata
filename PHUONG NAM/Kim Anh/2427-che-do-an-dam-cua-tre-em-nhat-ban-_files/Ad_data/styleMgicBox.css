@@ -1,0 +1,220 @@
+@charset "utf-8";
+/*/////////////////////////////////////
+=======================================
+========|| Copyright: thanhPr[0] ||====
+-- mail:phut_thatlong_101@yahoo.com ---
+=======|| Allright : Moore Corp ||=====
+|       website: shopping24h.vn        |
+======================================== 
+/// */@import url('fontsize.css');/*///
+/////////////////////////////////////*/
+
+/*
+=======================================
+Public
+=======================================
+*/
+*{outline:none}
+a,img{border:none;}
+body{font-family:Arial, Helvetica, sans-serif; margin:0 ; padding:0; background:#FFF;}
+.mgic_box,
+.mgic_box_t,
+.mgic_box_r,
+.mgic_box_b{background:url(http://embed.vietad.vn/magicbox/version1/bder.jpg) top left repeat-y; position:relative; height:auto;}
+.mgic_box_t{background:none; border-top:1px solid #d7d7d7; width:100%;}
+.mgic_box_r{background-position:right; width:100%;}
+.mgic_box_b{background-position:bottom; background-repeat:repeat-x; width:100%;}
+span.g_t_r{background:url(http://embed.vietad.vn/magicbox/version1/g_r_top.png) no-repeat; width:10px; height:8px; position:absolute; right:0; display:block; top:0; z-index:1000;}
+span.g_b_r{/*background:url(../images/g_r_btom.png) no-repeat;*/ width:10px; height:10px; position:absolute; right:0; bottom:0; display:block; z-index:1001;}
+span.g_b_l{/*background:url(../images/g_l_btom.png) no-repeat; */width:10px; height:10px; position:absolute; bottom:0; left:0; display:block; z-index:1002;}
+a.logoMgicBox{background:url(http://embed.vietad.vn/magicbox/version1/log-vietAd.png) no-repeat; width:110px; height:23px; display:block; position:absolute; top:0; left:0; z-index:2000;}
+#mgic_header{height:23px;/* overflow:hidden; */clear:both; display:block; position:relative;}
+#mgic_ctner{height:auto; line-height:16px; font-size:11px; color:#000; margin:0; padding:0;}
+#mgic_ctner img{width:90px; height:90px; position:relative; z-index:10000;}
+#mgic_fterQc{height:17px;/* background:#d7d7d7; */position:relative; left:0; clear:both; line-height:13px; bottom:0!important; overflow:hidden;}
+#mgic_fterNoneQc{height:7px; position:relative; bottom:0!important; left:0; clear:both;}
+.titleBuyAds{clear:both; position:absolute; width:100%; top:0!important; left:0; padding:1px 0 0 0;}
+.ctnerbuyAdsHder{height:19px;  padding:0 2px 2px 0; position:relative;}
+.ctnerTbuyAds{padding: 1px 4px 2px 0; display:block;}
+a.clickBuy{background:url(http://embed.vietad.vn/magicbox/version1/arrBuyAds.png) right 1px no-repeat; width:107px; height:19px; display:block; position:absolute; top:-4px; right:2px; text-indent:10000000px; white-space:nowrap;}
+a.clickBuyTophder{background:url(http://embed.vietad.vn/magicbox/version1/adbyHder.png) no-repeat; width:107px; height:18px; display:block; position:absolute; right:1px; top:-1px;}
+.cropImgLeft{float:left; padding-bottom:5px; padding-right:5px;}
+.mgic_titleItem,
+.mgic_titleItemfix{font-weight:bold;}
+.mgic_titleItemfix{height:32px; overflow:hidden;}
+.mgic_titleItem a,
+.mgic_titleItem a:hover,
+.mgic_titleItemfix a,
+.mgic_titleItemfix a:hover{color:#000;}
+.mgic_titleItem a:hover,.mgic_titleItemfix a:hover{text-decoration:underline;}
+.mgic_domain{padding-bottom:5px; color:#5c5c5c;}
+.mgic_domain a{color:#5c5c5c;}
+.mgic_domain a:hover{color:#5c5c5c; text-decoration:underline;}
+.cropImg{padding-bottom:5px;}
+.description{margin:0; padding:0;}
+.description a,
+.description a:hover{color:#000; text-decoration:none; cursor:default;}
+.bderBtom,
+.bderRight{background:url(http://embed.vietad.vn/magicbox/version1/bgBtom.jpg) bottom left repeat-x;}
+.bderRight{background-position:right; background-repeat:repeat-y;}
+/*
+===================================
+Private
+===================================
+*/
+
+/*==============Mgicbox 120 x=============*/
+
+div#mgbox_120{width:120px; overflow:hidden;}
+div.item_120x250{height:248px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+
+/*==============END 120===================*/
+
+/*==============Mgicbox 130 x=============*/
+
+div#mgbox_130{width:130px; overflow:hidden;}
+div.item_130x250{height:248px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+
+/*==============END 130===================*/
+
+/*==============Mgicbox 160 x=============*/
+
+div#mgbox_160{width:160px; overflow:hidden;}
+div.item_160x220{height:218px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+
+/*==============END 160===================*/
+
+/*==============Mgicbox 250 x=============*/
+
+div#mgbox_250{width:250px; overflow:hidden;}
+div.item_250x150{height:148px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+
+/*==============END 250===================*/
+
+/*==============Mgicbox 300 x=============*/
+
+div#mgbox_300{width:300px; overflow:hidden;}
+div.item_300x140{height:138px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+
+/*==============END 300===================*/
+
+/*==============Mgicbox 470 x=============*/
+
+div#mgbox_470{width:470px; overflow:hidden;}
+div.item_470x150{height:150px; float:left; width:218px; display:block; position:relative; overflow:hidden; padding:7px 8px 0 8px;}
+
+/*==============END 470===================*/
+
+/*==============Mgicbox 630 x=============*/
+
+div#mgbox_630{width:630px; overflow:hidden;}
+div.item_630x150{height:150px; float:left; width:193px; display:block; position:relative; overflow:hidden; padding:7px 8px 0 8px;}
+
+/*==============END 630===================*/
+
+/*==============Mgicbox 630 x=============*/
+
+div#mgbox_750{width:750px; overflow:hidden;}
+div.item_750x150{height:150px; float:left; width:233px; display:block; position:relative; overflow:hidden; padding:7px 8px 0 8px;}
+
+/*==============END 750===================*/
+
+/*==============Mgicbox 950 x=============*/
+
+div#mgbox_950{width:950px; overflow:hidden;}
+div.item_950x150{height:150px; float:left; width:221px; display:block; position:relative; overflow:hidden; padding:7px 8px 0 8px;}
+
+/*==============END 750===================*/
+/*
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+                   10 kích thước chuẩn IAB
+				   
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+*/
+/* 
+120x600 --------------------------*/
+div#mgbox_120x600{width:120px; overflow:hidden;}
+div.item_120x280{height:278px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+/*
+160x600 ---------------------------*/
+div#mgbox_160x600{width:160px; overflow:hidden;}
+div.item_160x280{height:278px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+/*
+200x200 ---------------------------*/
+div#mgbox_200x200{width:200px; overflow:hidden;}
+div.item_200x160{height:158px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+/*
+240x400 ---------------------------*/
+div#mgbox_240x400{width:240px; overflow:hidden;}
+div.item_240x180{height:178px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+/*
+300x250 ---------------------------*/
+div#mgbox_300x250{width:300px; overflow:hidden;}
+div.item_134x250{width:134px; float:left; height:220px; display:block; position:relative; overflow:hidden; padding:7px 8px 0 8px;}
+/*
+336x280 ---------------------------*/
+div#mgbox_336x280{width:336px; overflow:hidden;}
+div.item_336x125{height:125px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+
+/*
+300x600 ---------------------------*/
+div#mgbox_300x600{width:300px; overflow:hidden;}
+div.item_300x140{height:138px; clear:both; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+
+/*
+720x300 ---------------------------*/
+div#mgbox_720x300{width:720px; overflow:hidden;}
+div.item_330x250{width:334px; float:left; height:133px; display:block; position:relative; overflow:hidden; padding:2px 8px 0 8px;}
+div.item_330x250r{width:344px; float:left; height:133px; display:block; position:relative; overflow:hidden; padding:2px 8px 0 0;}
+
+
+/*============
+*/
+
+a.logoVertical{background:url(http://embed.vietad.vn/magicbox/version1/logoVadVertical.png) top left no-repeat; width:17px; height:77px; position:absolute; right:1px; top:0; z-index:1000;}
+.boxShare_90{background:url(http://embed.vietad.vn/magicbox/version1/baseLine.jpg) top left repeat-x; position:relative;}
+.boxShare_90Btom{background:url(http://embed.vietad.vn/magicbox/version1/baseLine.jpg) bottom left repeat-x;}
+.boxShare_90Right{background:url(http://embed.vietad.vn/magicbox/version1/baseLine.jpg) top right repeat-y;}
+.boxShare_90 ul{margin:0; padding:0 0 0 14px;}
+.boxShare_90 ul li{background:url(http://embed.vietad.vn/magicbox/version1/baseLine.jpg) top left repeat-y; font-size:11px; overflow:hidden; list-style:none; float:left; width:334px; padding:5px 8px; height:80px; line-height:16px;}
+.boxShare_90 ul li img.itemImgList{float:left; width:80px; height:80px; margin: 0 8px 0 0; position:relative; z-index:1000;}
+.titleLeftAds{background:#d7d7d7; padding:0 0 0 2px; position:absolute; left:0; height:90px; width:14px; top:0;}
+.fixHeight{height:32px; overflow:hidden; line-height:normal!important;}
+a.linkbuyAds{background:url(http://embed.vietad.vn/magicbox/version1/imgBuyads.png) no-repeat; width:14px; height:88px; display:block; margin:0 auto;}
+
+/*14/05/2012
+
+*/
+
+div#mgbox_970{width:970px; overflow:hidden;}
+div.item_970x150{height:150px; float:left; width:226px; display:block; position:relative; overflow:hidden; padding:7px 8px 0 8px;}
+/*
+180x600 ---------------------------*/
+div#mgbox_180x600{width:180px; overflow:hidden;}
+div.item_160x188{height:188px; clear:both; display:block; position:relative; line-height:14px!important; overflow:hidden; padding:2px 8px 0 8px;}
+/*
+950_90 */
+
+.item290_90{width:290px!important; position:relative; line-height:14px!important;}
+.titleOff{height:26px; overflow:hidden;}
+
+/*==============Mgicbox 670 x=============*/
+
+div#mgbox_670{width:670px; overflow:hidden;}
+div.item_670x150{height:150px; float:left; width:206px; display:block; position:relative; overflow:hidden; padding:7px 8px 0 8px;}
+
+/*==============END 670===================*/
+
+/*==============Mgicbox 570 x=============*/
+
+div#mgbox_570{width:570px; overflow:hidden;}
+div.item_570x150{height:150px; float:left; width:180px; display:block; position:relative; overflow:hidden; padding:7px 5px 0 5px;}
+
+/*==============END 570===================*/
+.item700x90{width:320px!important;}
+.item700x90 img.size{width:70px; height:70px; float:left; margin: 0 8px 0 0;}
